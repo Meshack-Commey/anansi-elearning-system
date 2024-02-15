@@ -5,7 +5,7 @@ import Project_Management_img from '@/components/assets/images/Business_manageme
 import Link from "next/link";
 
 
-export const courses = [
+const courses = [
     {
         "id": 1,
         "title": "Investment Management",

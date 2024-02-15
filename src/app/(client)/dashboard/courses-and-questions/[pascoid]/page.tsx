@@ -5,7 +5,7 @@ import Project_Management_img from '@/components/assets/images/Business_manageme
 import Link from "next/link";
 
 
-export const courses = [
+const courses = [
     {
         "id": 1,
         "title": "Investment Management",
@@ -41,7 +41,9 @@ export const courses = [
     },
 ]
 
-export default function ReadMe() {
+export default function ReadMe({params}:{params: {
+    pascoid: string
+}}) {
     return(
         <>
             <section className="flex flex-col w-full">

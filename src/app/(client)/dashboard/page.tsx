@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { sidebarMenu } from '@/components/SideBar'
 
-export const Lists_of_courses = [
+const Lists_of_courses = [
     {
         "id": 1,
         "name": "Enterpreneurship",
