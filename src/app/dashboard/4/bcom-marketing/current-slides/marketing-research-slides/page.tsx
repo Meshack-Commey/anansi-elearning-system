@@ -8,114 +8,114 @@ import Link from "next/link";
 const courses = [
     {
         "id": 1,
-        "title": "Introduction to Project Management",
+        "title": "Introduction to Marketing Research",
         "course_img": Project_Management_img,
         "author": "JERRY WELSON",
         "published_day": 24,
         "published_month": "MAR",
         "published_year": 2024,
         "category": "Lecture 1",
-        "url": "/dashboard/4/bcom-marketing/current-slides/pm-slides/1"
+        "url": "/dashboard/4/bcom-marketing/current-slides/marketing-research-slides/1"
     },
-    {
-        "id": 2,
-        "title": "Organizational Strategy and Projects",
-        "course_img": Project_Management_img,
-        "author": "JERRY WELSON",
-        "published_day": 24,
-        "published_month": "MAR",
-        "published_year": 2024,
-        "category": "Lecture 2",
-        "url": "/dashboard/4/bcom-marketing/current-slides/pm-slides/2"
-    },
-    {
-        "id": 3,
-        "title": "Project Selection Portfolio Mgt",
-        "course_img": Project_Management_img,
-        "author": "JERRY WELSON",
-        "published_day": 24,
-        "published_month": "MAR",
-        "published_year": 2024,
-        "category": "Lecture 3",
-        "url": "/dashboard/4/bcom-marketing/current-slides/pm-slides/3"
-    },
-    {
-        "id": 4,
-        "title": "Leadership Project Management",
-        "course_img": Project_Management_img,
-        "author": "JERRY WELSON",
-        "published_day": 24,
-        "published_month": "MAR",
-        "published_year": 2024,
-        "category": "Lecture 4",
-        "url": "/dashboard/4/bcom-marketing/current-slides/pm-slides/4"
-    },
-    {
-        "id": 5,
-        "title": "Scope Mgt",
-        "course_img": Project_Management_img,
-        "author": "JERRY WELSON",
-        "published_day": 24,
-        "published_month": "MAR",
-        "published_year": 2024,
-        "category": "Lecture 5",
-        "url": "/dashboard/4/bcom-marketing/current-slides/pm-slides/5"
-    },
-    {
-        "id": 6,
-        "title": "Team Building",
-        "course_img": Project_Management_img,
-        "author": "JERRY WELSON",
-        "published_day": 24,
-        "published_month": "MAR",
-        "published_year": 2024,
-        "category": "Lecture 6",
-        "url": "/dashboard/4/bcom-marketing/current-slides/pm-slides/6"
-    },
-    {
-        "id": 7,
-        "title": "Risk Management",
-        "course_img": Project_Management_img,
-        "author": "JERRY WELSON",
-        "published_day": 24,
-        "published_month": "MAR",
-        "published_year": 2024,
-        "category": "Lecture 7",
-        "url": "/dashboard/4/bcom-marketing/current-slides/pm-slides/7"
-    },
-    {
-        "id": 8,
-        "title": "Cost Estimation Budgeting",
-        "course_img": Project_Management_img,
-        "author": "JERRY WELSON",
-        "published_day": 24,
-        "published_month": "MAR",
-        "published_year": 2024,
-        "category": "Lecture 8",
-        "url": "/dashboard/4/bcom-marketing/current-slides/pm-slides/8"
-    },
-    {
-        "id": 9,
-        "title": "Scheduling",
-        "course_img": Project_Management_img,
-        "author": "JERRY WELSON",
-        "published_day": 24,
-        "published_month": "MAR",
-        "published_year": 2024,
-        "category": "Lecture 9",
-        "url": "/dashboard/4/bcom-marketing/current-slides/pm-slides/9"
-    },
-    {
-        "id": 10,
-        "title": "Project Evaluation Control",
-        "course_img": Project_Management_img,
-        "author": "JERRY WELSON",
-        "published_day": 24,
-        "published_month": "MAR",
-        "published_year": 2023,
-        "category": "Lecture 10",
-        "url": "/dashboard/4/bcom-marketing/current-slides/pm-slides/10"
-    },   
+    // {
+    //     "id": 2,
+    //     "title": "Organizational Strategy and Projects",
+    //     "course_img": Project_Management_img,
+    //     "author": "JERRY WELSON",
+    //     "published_day": 24,
+    //     "published_month": "MAR",
+    //     "published_year": 2024,
+    //     "category": "Lecture 2",
+    //     "url": "/dashboard/4/bcom-marketing/current-slides/marketing-research-slides/2"
+    // },
+    // {
+    //     "id": 3,
+    //     "title": "Project Selection Portfolio Mgt",
+    //     "course_img": Project_Management_img,
+    //     "author": "JERRY WELSON",
+    //     "published_day": 24,
+    //     "published_month": "MAR",
+    //     "published_year": 2024,
+    //     "category": "Lecture 3",
+    //     "url": "/dashboard/4/bcom-marketing/current-slides/marketing-research-slides/3"
+    // },
+    // {
+    //     "id": 4,
+    //     "title": "Leadership Project Management",
+    //     "course_img": Project_Management_img,
+    //     "author": "JERRY WELSON",
+    //     "published_day": 24,
+    //     "published_month": "MAR",
+    //     "published_year": 2024,
+    //     "category": "Lecture 4",
+    //     "url": "/dashboard/4/bcom-marketing/current-slides/marketing-research-slides/4"
+    // },
+    // {
+    //     "id": 5,
+    //     "title": "Scope Mgt",
+    //     "course_img": Project_Management_img,
+    //     "author": "JERRY WELSON",
+    //     "published_day": 24,
+    //     "published_month": "MAR",
+    //     "published_year": 2024,
+    //     "category": "Lecture 5",
+    //     "url": "/dashboard/4/bcom-marketing/current-slides/marketing-research-slides/5"
+    // },
+    // {
+    //     "id": 6,
+    //     "title": "Team Building",
+    //     "course_img": Project_Management_img,
+    //     "author": "JERRY WELSON",
+    //     "published_day": 24,
+    //     "published_month": "MAR",
+    //     "published_year": 2024,
+    //     "category": "Lecture 6",
+    //     "url": "/dashboard/4/bcom-marketing/current-slides/marketing-research-slides/6"
+    // },
+    // {
+    //     "id": 7,
+    //     "title": "Risk Management",
+    //     "course_img": Project_Management_img,
+    //     "author": "JERRY WELSON",
+    //     "published_day": 24,
+    //     "published_month": "MAR",
+    //     "published_year": 2024,
+    //     "category": "Lecture 7",
+    //     "url": "/dashboard/4/bcom-marketing/current-slides/marketing-research-slides/7"
+    // },
+    // {
+    //     "id": 8,
+    //     "title": "Cost Estimation Budgeting",
+    //     "course_img": Project_Management_img,
+    //     "author": "JERRY WELSON",
+    //     "published_day": 24,
+    //     "published_month": "MAR",
+    //     "published_year": 2024,
+    //     "category": "Lecture 8",
+    //     "url": "/dashboard/4/bcom-marketing/current-slides/marketing-research-slides/8"
+    // },
+    // {
+    //     "id": 9,
+    //     "title": "Scheduling",
+    //     "course_img": Project_Management_img,
+    //     "author": "JERRY WELSON",
+    //     "published_day": 24,
+    //     "published_month": "MAR",
+    //     "published_year": 2024,
+    //     "category": "Lecture 9",
+    //     "url": "/dashboard/4/bcom-marketing/current-slides/marketing-research-slides/9"
+    // },
+    // {
+    //     "id": 10,
+    //     "title": "Project Evaluation Control",
+    //     "course_img": Project_Management_img,
+    //     "author": "JERRY WELSON",
+    //     "published_day": 24,
+    //     "published_month": "MAR",
+    //     "published_year": 2023,
+    //     "category": "Lecture 10",
+    //     "url": "/dashboard/4/bcom-marketing/current-slides/marketing-research-slides/10"
+    // },   
 ]
 
 export default function Pasco() {
@@ -124,7 +124,7 @@ export default function Pasco() {
             <section className="flex flex-col w-full">
                 <div className='flex justify-between'>
                     <h1 className='text-xl text-slate-900 mb-5'> Marketing Research Slides </h1>
-                    <Link href='/dashboard/4/bcom-marketing/past-questions'> Back</Link>
+                    <Link href='/dashboard/4/bcom-marketing/current-slides'> Back</Link>
                 </div>
                 <section className="pasco-container"> {/** PASCO */}
                     {/** Cards */}

@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from 'next/link'
 import { FullSideNav, ShortSideNav } from '@/components/BComMarketingSideBar'
 
+//importing API
+import { users } from '../../../api/users/data'
 
 //importing states
 import User_Pic from "@/components/assets/images/icons/user (2).png"
@@ -57,7 +59,7 @@ export default function UserDashboardLayout({
                         />
                     </figure>
                     <p className="text-base"> 
-                        <span className='font-bold'> Kelvin Yeboah </span>
+                        <span className='font-bold'> {users[1].first_name} {users[1].last_name} </span>
                         <br /> 
                         <Link href={'/'}><span className='text-md'>Logout</span></Link> 
                     </p>

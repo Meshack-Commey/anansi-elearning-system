@@ -28,9 +28,25 @@ export default function Home() {
         
         try {
 
-            // Level400 user login
+            // Level400 B.Com. Marketing user login
             if(info.email === users[1].email && info.password === users[1].password) {
                 router.replace("/dashboard/4/bcom-marketing")
+            }
+            // Level400 B.Com Procurement user login
+            else if(info.email === users[2].email && info.password === users[2].password) {
+                router.replace("/dashboard/4/bcom-procurement")
+            }
+            // Level300 B.Com. Procurement user login
+            else if(info.email === users[3].email && info.password === users[3].password) {
+                router.replace("/dashboard/3/bcom-procurement")
+            }
+            // Level200 B.Com. Procurement user login
+            else if(info.email === users[4].email && info.password === users[4].password) {
+                router.replace("/dashboard/2/bcom-procurement")
+            }
+            // Level100 B.Com. Procurement user login
+            else if(info.email === users[5].email && info.password === users[5].password) {
+                router.replace("/dashboard/1/bcom-procurement")
             } else {
                 setError("Invalid email or password");
                 router.replace("/")

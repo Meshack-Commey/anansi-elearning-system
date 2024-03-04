@@ -4,7 +4,6 @@ import Image from 'next/image'
 
 //imported states
 import Dashboard_Icon from '@/components/assets/images/icons/dashboard (4).png'
-import Programme_Icon from '@/components/assets/images/icons/calendar.png'
 import PastQuestions_Icon from '@/components/assets/images/icons/book (1).png'
 import Slides_Icon from '@/components/assets/images/icons/slide.png'
 import Timetable_Icon from '@/components/assets/images/icons/schedule.png'
@@ -47,7 +46,7 @@ export const FullSideNav = () => {
                         sidebarMenu.map((value) => {
                             return(
                                 <>
-                                    <p key={value.alt} > 
+                                    <p key={value.alt} className='menu'> 
                                         <Link href={value.url} className="flex"> 
                                             <figure className='w-5 mb-8 mt-2 hover:cursor-pointer  '>
                                                 <Image 
@@ -79,9 +78,10 @@ export const ShortSideNav = () => {
                     {
                         sidebarMenu.map((icons) => {
                             return(
-                                <>
+                            <>
+                                <div className="sidebar-hover">
                                     <Link href={icons.url}>
-                                        <figure key={icons.alt} className='w-6 mb-8 mt-2 hover:cursor-pointer  '>
+                                        <figure key={icons.alt} className='menu w-6 mb-8 mt-2 hover:cursor-pointer  '>
                                             <Image 
                                                 src={icons.img} 
                                                 alt={icons.alt} 
@@ -89,7 +89,11 @@ export const ShortSideNav = () => {
                                             />  
                                         </figure>
                                     </Link>
-                                </>
+                                    <Link href={icons.url}>
+                                        <p className="side-menu"> { icons.alt } </p>
+                                    </Link>
+                                </div>
+                            </>
                             )
                         })
                     }

@@ -8,14 +8,14 @@ import Link from "next/link";
 const courses = [
     {
         "id": 1,
-        "title": "Project Management Achieving Competitive Advantage - 4th edition",
+        "title": "Self Management",
         "course_img": Project_Management_img,
         "author": "JERRY WELSON",
         "published_day": 24,
         "published_month": "MAR",
         "published_year": 2023,
         "category": "Management",
-        "url": "/dashboard/4/bcom-marketing/past-questions/pm-pasco/1"
+        "url": "/dashboard/4/bcom-marketing/past-questions/self-management-pasco/1"
     },
     
 ]
@@ -53,10 +53,10 @@ export default function Pasco() {
                                                     <p className="text-white text-md"> {course.published_year} </p>
                                                 </div>
                                                 <div className='flex flex-col gap-2 p-5 justify-start items-start '>
+                                                    <p className="text-slate-900 text-lg"> {course.title} </p>
                                                     <div className='flex gap-6 flex-wrap text-sm uppercase'>
                                                         <span>By {course.author} </span>
                                                     </div>
-                                                    <p className="text-slate-900 text-lg"> {course.title} </p>
                                                 </div>
                                             </div>
                                         </div>

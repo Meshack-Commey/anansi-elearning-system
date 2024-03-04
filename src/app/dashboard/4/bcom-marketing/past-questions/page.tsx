@@ -4,6 +4,8 @@ import Enterpreneurship_img from '@/components/assets/images/cob_ad.jpg'
 import Project_Management_img from '@/components/assets/images/Business_management_courses.jpg'
 import Link from "next/link";
 
+//importing User API
+import { users } from '../../../../api/users/data'
 
 const courses = [
     {
@@ -28,50 +30,50 @@ const courses = [
         "category": "Management",
         "url": "/dashboard/4/bcom-marketing/past-questions/project-management-pasco"
     },
-    // {
-    //     "id": 3,
-    //     "title": "Design Thinking and Innovation",
-    //     "course_img": Investment_Management_img,
-    //     "author": "Kelly Yeboah",
-    //     "published_day": 4,
-    //     "published_month": "JAN",
-    //     "published_year": 2022,
-    //     "category": "Investment",
-    //     "url": "/dashboard/4/bcom-marketing/past-questions/design-thinking-pasco"
-    // },
-    // {
-    //     "id": 4,
-    //     "title": "Financial Management",
-    //     "course_img": Project_Management_img,
-    //     "author": "JERRY WELSON",
-    //     "published_day": 24,
-    //     "published_month": "MAR",
-    //     "published_year": 2023,
-    //     "category": "Management",
-    //     "url": "/dashboard/4/bcom-marketing/past-questions/financial-management-pasco"
-    // },
-    // {
-    //     "id": 5,
-    //     "title": "Marketing Research",
-    //     "course_img": Enterpreneurship_img,
-    //     "author": "Sampson Larbi",
-    //     "published_day": 11,
-    //     "published_month": "FEB",
-    //     "published_year": 2023,
-    //     "category": "Enterpreneurship",
-    //     "url": "/dashboard/4/bcom-marketing/past-questions/marketing-research-pasco"
-    // },
-    // {
-    //     "id": 6,
-    //     "title": "Self Management",
-    //     "course_img": Investment_Management_img,
-    //     "author": "Kelly Yeboah",
-    //     "published_day": 4,
-    //     "published_month": "JAN",
-    //     "published_year": 2022,
-    //     "category": "Investment",
-    //     "url": "/dashboard/4/bcom-marketing/past-questions/self-management-pasco"
-    // },
+    {
+        "id": 3,
+        "title": "Design Thinking and Innovation",
+        "course_img": Investment_Management_img,
+        "author": "Kelly Yeboah",
+        "published_day": 4,
+        "published_month": "JAN",
+        "published_year": 2022,
+        "category": "Investment",
+        "url": "/dashboard/4/bcom-marketing/past-questions/design-thinking-pasco"
+    },
+    {
+        "id": 4,
+        "title": "Financial Management",
+        "course_img": Project_Management_img,
+        "author": "JERRY WELSON",
+        "published_day": 24,
+        "published_month": "MAR",
+        "published_year": 2023,
+        "category": "Management",
+        "url": "/dashboard/4/bcom-marketing/past-questions/financial-management-pasco"
+    },
+    {
+        "id": 5,
+        "title": "Marketing Research",
+        "course_img": Enterpreneurship_img,
+        "author": "Sampson Larbi",
+        "published_day": 11,
+        "published_month": "FEB",
+        "published_year": 2023,
+        "category": "Enterpreneurship",
+        "url": "/dashboard/4/bcom-marketing/past-questions/marketing-research-pasco"
+    },
+    {
+        "id": 6,
+        "title": "Self Management",
+        "course_img": Investment_Management_img,
+        "author": "Kelly Yeboah",
+        "published_day": 4,
+        "published_month": "JAN",
+        "published_year": 2022,
+        "category": "Investment",
+        "url": "/dashboard/4/bcom-marketing/past-questions/self-management-pasco"
+    },
 ]
 
 export default function Pasco() {
@@ -88,6 +90,7 @@ export default function Pasco() {
                             courses.map((course) => {
                                 return(
                                 <>
+                                    
                                     <Link href={course.url}>
                                         <div className='pasco-items-card'>
                                             <figure className='w-full overflow-hidden transition ease-out duration-100 hover:cursor-pointer'>
@@ -111,7 +114,7 @@ export default function Pasco() {
                                                 </div>
                                             </div>
                                         </div>
-                                    </Link>
+                                    </Link>            
                                 </>
                                 )
                             })

@@ -73,3 +73,21 @@ body {
   font-size: 18px;
   color: gray;
 }
+
+.sidebar-hover{
+  display: flex;
+}
+.sidebar-hover .side-menu{
+  display: none;
+}
+.menu:hover{
+  margin-left: 10px;
+}
+.sidebar-hover:hover .side-menu{
+  display: block;
+  border: 1px solid inherit;
+  padding: 10px;
+  margin-left: 10px;
+  color: #0f172a;
+  background: #d6dbdc;
+}

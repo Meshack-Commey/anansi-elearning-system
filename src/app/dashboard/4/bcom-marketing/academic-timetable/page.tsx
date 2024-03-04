@@ -8,7 +8,7 @@ import Link from "next/link";
 const courses = [
     {
         "id": 1,
-        "title": "2023/2024 Academic Timetable",
+        "title": "2023/2024 Academic Year",
         "course_img": Project_Management_img,
         "author": "JERRY WELSON",
         "published_day": 14,
