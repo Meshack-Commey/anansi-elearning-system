@@ -12,7 +12,7 @@ export default function Read(){
            <section className="flex flex-col w-full">
                 <div className='flex justify-between'>
                     <h1 className='text-xl text-slate-900 mb-5 capitalize'> Sustainable Procurement </h1>
-                    <Link href='/dashboard/4/bcom-procurement/past-questions/sustainable-procurement-pasco'> Back</Link>
+                    <Link href='/dashboard/fourth/bcom-procurement/past-questions/sustainable-procurement-pasco'> Back</Link>
                 </div>
                 <div>
                     {/* <IFrameDocxViewer docxUrl={pdfUrl} /> */}

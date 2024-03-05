@@ -12,7 +12,7 @@ export default function Read(){
            <section className="flex flex-col w-full">
                 <div className='flex justify-between'>
                     <h1 className='text-xl text-slate-900 mb-5 capitalize'> Critical Thinking </h1>
-                    <Link href='/dashboard/2/bcom-procurement/past-questions/critical-thinking-pasco'> Back</Link>
+                    <Link href='/dashboard/second/bcom-procurement/past-questions/critical-thinking-pasco'> Back</Link>
                 </div>
                 <div>
                     {/* <IFrameDocxViewer docxUrl={pdfUrl} /> */}

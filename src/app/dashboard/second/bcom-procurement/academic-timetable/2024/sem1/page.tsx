@@ -11,7 +11,7 @@ export default function Read(){
            <section className="flex flex-col w-full">
                 <div className='flex justify-between'>
                     <h1 className='text-xl text-slate-900 mb-5 capitalize'> 2023/2024 Academic Year </h1>
-                    <Link href='/dashboard/2/bcom-procurement/academic-timetable'> Back</Link>
+                    <Link href='/dashboard/second/bcom-procurement/academic-timetable'> Back</Link>
                 </div>
                 <div>
                     <IFrameDocxViewer docxUrl={pdfUrl} />

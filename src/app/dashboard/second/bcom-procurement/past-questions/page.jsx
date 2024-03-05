@@ -15,7 +15,7 @@ const courses = [
         "published_month": "FEB",
         "published_year": 2023,
         "category": "business",
-        "url": "/dashboard/2/bcom-procurement/past-questions/business-law-pasco"
+        "url": "/dashboard/second/bcom-procurement/past-questions/business-law-pasco"
     },
     {
         "id": 2,
@@ -26,7 +26,7 @@ const courses = [
         "published_month": "MAR",
         "published_year": 2023,
         "category": "methods",
-        "url": "/dashboard/2/bcom-procurement/past-questions/quantitative-methods-pasco"
+        "url": "/dashboard/second/bcom-procurement/past-questions/quantitative-methods-pasco"
     },
     {
         "id": 3,
@@ -37,7 +37,7 @@ const courses = [
         "published_month": "JAN",
         "published_year": 2022,
         "category": "thinking",
-        "url": "/dashboard/2/bcom-procurement/past-questions/critical-thinking-pasco"
+        "url": "/dashboard/second/bcom-procurement/past-questions/critical-thinking-pasco"
     },
 ]
 

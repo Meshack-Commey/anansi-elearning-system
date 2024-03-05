@@ -15,7 +15,7 @@ const courses = [
         "published_month": "JAN",
         "published_year": 2024,
         "category": "Semester 1",
-        "url": "/dashboard/4/bcom-procurement/academic-timetable/2024/sem1"
+        "url": "/dashboard/fourth/bcom-procurement/academic-timetable/2024/sem1"
     },
     
 ]

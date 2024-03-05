@@ -18,7 +18,7 @@ const courses = [
         "published_month": "MAR",
         "published_year": 2023,
         "category": "Management",
-        "url": "/dashboard/4/bcom-marketing/current-slides/project-management-slides"
+        "url": "/dashboard/fourth/bcom-marketing/current-slides/project-management-slides"
     },
     {
         "id": 2,
@@ -29,7 +29,7 @@ const courses = [
         "published_month": "FEB",
         "published_year": 2023,
         "category": "Enterpreneurship",
-        "url": "/dashboard/4/bcom-marketing/current-slides/enterpreneurship-slides"
+        "url": "/dashboard/fourth/bcom-marketing/current-slides/enterpreneurship-slides"
     },
     {
         "id": 3,
@@ -40,7 +40,7 @@ const courses = [
         "published_month": "JAN",
         "published_year": 2022,
         "category": "Investment",
-        "url": "/dashboard/4/bcom-marketing/current-slides/design-thinking-slides"
+        "url": "/dashboard/fourth/bcom-marketing/current-slides/design-thinking-slides"
     },
     {
         "id": 4,
@@ -51,7 +51,7 @@ const courses = [
         "published_month": "MAR",
         "published_year": 2023,
         "category": "Management",
-        "url": "/dashboard/4/bcom-marketing/current-slides/financial-management-slides"
+        "url": "/dashboard/fourth/bcom-marketing/current-slides/financial-management-slides"
     },
     {
         "id": 5,
@@ -62,7 +62,7 @@ const courses = [
         "published_month": "FEB",
         "published_year": 2023,
         "category": "Enterpreneurship",
-        "url": "/dashboard/4/bcom-marketing/current-slides/marketing-research-slides"
+        "url": "/dashboard/fourth/bcom-marketing/current-slides/marketing-research-slides"
     },
     {
         "id": 6,
@@ -73,7 +73,7 @@ const courses = [
         "published_month": "JAN",
         "published_year": 2022,
         "category": "Investment",
-        "url": "/dashboard/4/bcom-marketing/current-slides/self-management-slides"
+        "url": "/dashboard/fourth/bcom-marketing/current-slides/self-management-slides"
     },
 ]
 

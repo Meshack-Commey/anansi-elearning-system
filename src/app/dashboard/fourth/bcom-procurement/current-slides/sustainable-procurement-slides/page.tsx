@@ -13,7 +13,7 @@ const courses = [
         "published_month": "MAR",
         "published_year": 2024,
         "category": "Lecture 1",
-        "url": "/dashboard/4/bcom-procurement/current-slides/sustainable-procurement-slides/1"
+        "url": "/dashboard/fourth/bcom-procurement/current-slides/sustainable-procurement-slides/1"
     },
     
 ]
@@ -24,7 +24,7 @@ export default function Pasco() {
             <section className="flex flex-col w-full">
                 <div className='flex justify-between'>
                     <h1 className='text-xl text-slate-900 mb-5'> Sustainable Procurement Slides </h1>
-                    <Link href='/dashboard/4/bcom-procurement/current-slides'> Back</Link>
+                    <Link href='/dashboard/fourth/bcom-procurement/current-slides'> Back</Link>
                 </div>
                 <section className="pasco-container"> {/** PASCO */}
                     {/** Cards */}

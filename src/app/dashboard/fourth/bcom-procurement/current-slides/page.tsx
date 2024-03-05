@@ -15,7 +15,7 @@ const courses = [
         "published_month": "MAR",
         "published_year": 2023,
         "category": "Management",
-        "url": "/dashboard/4/bcom-procurement/current-slides/project-management-slides"
+        "url": "/dashboard/fourth/bcom-procurement/current-slides/project-management-slides"
     },
     {
         "id": 2,
@@ -26,7 +26,7 @@ const courses = [
         "published_month": "FEB",
         "published_year": 2023,
         "category": "Enterpreneurship",
-        "url": "/dashboard/4/bcom-procurement/current-slides/enterpreneurship-slides"
+        "url": "/dashboard/fourth/bcom-procurement/current-slides/enterpreneurship-slides"
     },
     {
         "id": 3,
@@ -37,7 +37,7 @@ const courses = [
         "published_month": "JAN",
         "published_year": 2022,
         "category": "Investment",
-        "url": "/dashboard/4/bcom-procurement/current-slides/design-thinking-slides"
+        "url": "/dashboard/fourth/bcom-procurement/current-slides/design-thinking-slides"
     },
     {
         "id": 4,
@@ -48,7 +48,7 @@ const courses = [
         "published_month": "MAR",
         "published_year": 2023,
         "category": "Management",
-        "url": "/dashboard/4/bcom-procurement/current-slides/risk-management-slides"
+        "url": "/dashboard/fourth/bcom-procurement/current-slides/risk-management-slides"
     },
     {
         "id": 5,
@@ -59,7 +59,7 @@ const courses = [
         "published_month": "FEB",
         "published_year": 2023,
         "category": "procurement",
-        "url": "/dashboard/4/bcom-procurement/current-slides/sustainable-procurement-slides"
+        "url": "/dashboard/fourth/bcom-procurement/current-slides/sustainable-procurement-slides"
     },
     {
         "id": 6,
@@ -70,7 +70,7 @@ const courses = [
         "published_month": "JAN",
         "published_year": 2022,
         "category": "lean",
-        "url": "/dashboard/4/bcom-procurement/current-slides/lean-slides"
+        "url": "/dashboard/fourth/bcom-procurement/current-slides/lean-slides"
     },
 ]
 

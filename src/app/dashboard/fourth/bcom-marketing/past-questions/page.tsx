@@ -20,7 +20,7 @@ const courses = [
         "published_month": "FEB",
         "published_year": 2023,
         "category": "Enterpreneurship",
-        "url": "/dashboard/4/bcom-marketing/past-questions/enterpreneurship-pasco"
+        "url": "/dashboard/fourth/bcom-marketing/past-questions/enterpreneurship-pasco"
     },
     {
         "id": 2,
@@ -31,7 +31,7 @@ const courses = [
         "published_month": "MAR",
         "published_year": 2023,
         "category": "Management",
-        "url": "/dashboard/4/bcom-marketing/past-questions/project-management-pasco"
+        "url": "/dashboard/fourth/bcom-marketing/past-questions/project-management-pasco"
     },
     {
         "id": 3,
@@ -42,7 +42,7 @@ const courses = [
         "published_month": "JAN",
         "published_year": 2022,
         "category": "Investment",
-        "url": "/dashboard/4/bcom-marketing/past-questions/design-thinking-pasco"
+        "url": "/dashboard/fourth/bcom-marketing/past-questions/design-thinking-pasco"
     },
     {
         "id": 4,
@@ -53,7 +53,7 @@ const courses = [
         "published_month": "MAR",
         "published_year": 2023,
         "category": "Management",
-        "url": "/dashboard/4/bcom-marketing/past-questions/financial-management-pasco"
+        "url": "/dashboard/fourth/bcom-marketing/past-questions/financial-management-pasco"
     },
     {
         "id": 5,
@@ -64,7 +64,7 @@ const courses = [
         "published_month": "FEB",
         "published_year": 2023,
         "category": "Enterpreneurship",
-        "url": "/dashboard/4/bcom-marketing/past-questions/marketing-research-pasco"
+        "url": "/dashboard/fourth/bcom-marketing/past-questions/marketing-research-pasco"
     },
     {
         "id": 6,
@@ -75,7 +75,7 @@ const courses = [
         "published_month": "JAN",
         "published_year": 2022,
         "category": "Investment",
-        "url": "/dashboard/4/bcom-marketing/past-questions/self-management-pasco"
+        "url": "/dashboard/fourth/bcom-marketing/past-questions/self-management-pasco"
     },
 ]
 

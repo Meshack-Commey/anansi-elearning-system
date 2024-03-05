@@ -12,25 +12,25 @@ export const sidebarMenu = [
     {
         "img": Dashboard_Icon,
         "alt": "Dashboard",
-        "url": "/dashboard/4/bcom-marketing",
+        "url": "/dashboard/fourth/bcom-marketing",
         "value": 0
     }, 
     {
         "img": PastQuestions_Icon,
         "alt": "Past Questions",
-        "url": "/dashboard/4/bcom-marketing/past-questions",
+        "url": "/dashboard/fourth/bcom-marketing/past-questions",
         "value": 1045
     }, 
     {
         "img": Slides_Icon,
         "alt": "Current Slides",
-        "url": "/dashboard/4/bcom-marketing/current-slides",
+        "url": "/dashboard/fourth/bcom-marketing/current-slides",
         "value": 598
     }, 
     {
         "img": Timetable_Icon,
         "alt": "Academic Timetable",
-        "url": "/dashboard/4/bcom-marketing/academic-timetable",
+        "url": "/dashboard/fourth/bcom-marketing/academic-timetable",
         "value": 14
     }
 ]

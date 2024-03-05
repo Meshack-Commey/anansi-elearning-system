@@ -14,7 +14,7 @@ const courses = [
         "published_month": "MAR",
         "published_year": 2024,
         "category": "Lecture 1",
-        "url": "/dashboard/2/bcom-procurement/current-slides/quantitative-methods-slides/1"
+        "url": "/dashboard/second/bcom-procurement/current-slides/quantitative-methods-slides/1"
     },
 ]
 
@@ -24,7 +24,7 @@ export default function Pasco() {
             <section className="flex flex-col w-full">
                 <div className='flex justify-between'>
                     <h1 className='text-xl text-slate-900 mb-5'> Quantitative Methods Slides </h1>
-                    <Link href='/dashboard/2/bcom-procurement/current-slides'> Back</Link>
+                    <Link href='/dashboard/second/bcom-procurement/current-slides'> Back</Link>
                 </div>
                 <section className="pasco-container"> {/** PASCO */}
                     {/** Cards */}

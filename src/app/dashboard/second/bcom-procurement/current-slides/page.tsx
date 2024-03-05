@@ -15,7 +15,7 @@ const courses = [
         "published_month": "FEB",
         "published_year": 2023,
         "category": "methods",
-        "url": "/dashboard/2/bcom-procurement/current-slides/quantitative-methods-slides"
+        "url": "/dashboard/second/bcom-procurement/current-slides/quantitative-methods-slides"
     },
     {
         "id": 2,
@@ -26,7 +26,7 @@ const courses = [
         "published_month": "MAR",
         "published_year": 2023,
         "category": "business",
-        "url": "/dashboard/2/bcom-procurement/current-slides/business-law-slides"
+        "url": "/dashboard/second/bcom-procurement/current-slides/business-law-slides"
     },
     {
         "id": 3,
@@ -37,7 +37,7 @@ const courses = [
         "published_month": "FEB",
         "published_year": 2023,
         "category": "methods",
-        "url": "/dashboard/2/bcom-procurement/current-slides/critical-thinking-slides"
+        "url": "/dashboard/second/bcom-procurement/current-slides/critical-thinking-slides"
     },
 ]
 

@@ -14,7 +14,7 @@ const courses = [
         "published_month": "MAR",
         "published_year": 2024,
         "category": "Lecture 1",
-        "url": "/dashboard/4/bcom-marketing/current-slides/self-management-slides/1"
+        "url": "/dashboard/fourth/bcom-marketing/current-slides/self-management-slides/1"
     },
     // {
     //     "id": 2,

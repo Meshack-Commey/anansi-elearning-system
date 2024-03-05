@@ -11,7 +11,7 @@ const courses = [
         "published_month": "MAR",
         "published_year": 2023,
         "category": "Management",
-        "url": "/dashboard/4/bcom-procurement/past-questions/project-management-pasco/1"
+        "url": "/dashboard/fourth/bcom-procurement/past-questions/project-management-pasco/1"
     },
     
 ]
@@ -22,7 +22,7 @@ export default function Pasco() {
             <section className="flex flex-col w-full">
                 <div className='flex justify-between'>
                     <h1 className='text-xl text-slate-900 mb-5'> Project Management Past Questions </h1>
-                    <Link href='/dashboard/4/bcom-procurement/past-questions'> Back</Link>
+                    <Link href='/dashboard/fourth/bcom-procurement/past-questions'> Back</Link>
                 </div>
                 <section className="pasco-container"> {/** PASCO */}
                     {/** Cards */}
