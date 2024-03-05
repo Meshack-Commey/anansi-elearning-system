@@ -1,15 +1,15 @@
 import Image from "next/image";
-import Investment_Management_img from '@/components/assets/images/formulas_33006.jpg'
-import Enterpreneurship_img from '@/components/assets/images/cob_ad.jpg'
-import Project_Management_img from '@/components/assets/images/Business_management_courses.jpg'
 import Link from "next/link";
 
+import Business_Law_img from '@/components/assets/fileImgs/business_law.jpg'
+import Quantitative_Methods_img from '@/components/assets/fileImgs/quantitative_methods.jpg'
+import Critical_Thinking_img from '@/components/assets/fileImgs/design-thinking.webp'
 
 const courses = [
     {
         "id": 1,
         "title": "Business Law",
-        "course_img": Project_Management_img,
+        "course_img": Business_Law_img,
         "author": "Sampson Larbi",
         "published_day": 11,
         "published_month": "FEB",
@@ -20,7 +20,7 @@ const courses = [
     {
         "id": 2,
         "title": "Quantitative Methods",
-        "course_img": Investment_Management_img,
+        "course_img": Quantitative_Methods_img,
         "author": "JERRY WELSON",
         "published_day": 24,
         "published_month": "MAR",
@@ -31,7 +31,7 @@ const courses = [
     {
         "id": 3,
         "title": "Critical Thinking",
-        "course_img": Investment_Management_img,
+        "course_img": Critical_Thinking_img,
         "author": "Kelly Yeboah",
         "published_day": 4,
         "published_month": "JAN",

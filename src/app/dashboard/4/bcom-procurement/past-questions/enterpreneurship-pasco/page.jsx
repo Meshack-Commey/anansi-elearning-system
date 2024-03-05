@@ -1,7 +1,4 @@
-import Image from "next/image";
-import Investment_Management_img from '@/components/assets/images/formulas_33006.jpg'
-import Enterpreneurship_img from '@/components/assets/images/cob_ad.jpg'
-import Project_Management_img from '@/components/assets/images/Business_management_courses.jpg'
+
 import Link from "next/link";
 
 
@@ -9,7 +6,6 @@ const courses = [
     {
         "id": 1,
         "title": "Enterpreneurship",
-        "course_img": Project_Management_img,
         "author": "JERRY WELSON",
         "published_day": 24,
         "published_month": "MAR",
@@ -38,14 +34,8 @@ export default function Pasco() {
                                 return(
                                 <>
                                     <Link href={course.url}>
-                                        <div className='w-5/12 bg-white'>
-                                            <figure className='w-full overflow-hidden transition ease-out duration-100 hover:cursor-pointer'>
-                                                <Image 
-                                                    src={course.course_img} 
-                                                    alt={course.title} 
-                                                    className='w-full'
-                                                />
-                                            </figure>
+                                        <div className='w-auto bg-white'>
+                                            
                                             <div className="flex">
                                                 <div className='bg-red-500 pl-6 pr-6 flex flex-col justify-center items-center font-bold'>
                                                     <p className="text-white text-md"> {course.published_day} </p>

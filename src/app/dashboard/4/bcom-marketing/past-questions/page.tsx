@@ -1,17 +1,20 @@
 import Image from "next/image";
-import Investment_Management_img from '@/components/assets/images/formulas_33006.jpg'
-import Enterpreneurship_img from '@/components/assets/images/cob_ad.jpg'
-import Project_Management_img from '@/components/assets/images/Business_management_courses.jpg'
 import Link from "next/link";
 
 //importing User API
 import { users } from '../../../../api/users/data'
+import Design_Thinking_img from '@/components/assets/fileImgs/design_thinking.jpg'
+import Financial_Management_img from '@/components/assets/fileImgs/financial-management.jpg'
+import Enterpreneurship_img from '@/components/assets/fileImgs/entrepreneurship.jpg'
+import Project_Management_img from '@/components/assets/fileImgs/Project-Management.jpg'
+import Marketing_Research_img from '@/components/assets/fileImgs/marketing-research.jpg'
+import self_Management_img from '@/components/assets/fileImgs/self_management.jpg'
 
 const courses = [
     {
         "id": 1,
         "title": "Enterpreneurship",
-        "course_img": Project_Management_img,
+        "course_img": Enterpreneurship_img,
         "author": "Sampson Larbi",
         "published_day": 11,
         "published_month": "FEB",
@@ -22,7 +25,7 @@ const courses = [
     {
         "id": 2,
         "title": "Project Management",
-        "course_img": Investment_Management_img,
+        "course_img": Project_Management_img,
         "author": "JERRY WELSON",
         "published_day": 24,
         "published_month": "MAR",
@@ -33,7 +36,7 @@ const courses = [
     {
         "id": 3,
         "title": "Design Thinking and Innovation",
-        "course_img": Investment_Management_img,
+        "course_img": Design_Thinking_img,
         "author": "Kelly Yeboah",
         "published_day": 4,
         "published_month": "JAN",
@@ -44,7 +47,7 @@ const courses = [
     {
         "id": 4,
         "title": "Financial Management",
-        "course_img": Project_Management_img,
+        "course_img": Financial_Management_img,
         "author": "JERRY WELSON",
         "published_day": 24,
         "published_month": "MAR",
@@ -55,7 +58,7 @@ const courses = [
     {
         "id": 5,
         "title": "Marketing Research",
-        "course_img": Enterpreneurship_img,
+        "course_img": Marketing_Research_img,
         "author": "Sampson Larbi",
         "published_day": 11,
         "published_month": "FEB",
@@ -66,7 +69,7 @@ const courses = [
     {
         "id": 6,
         "title": "Self Management",
-        "course_img": Investment_Management_img,
+        "course_img": self_Management_img,
         "author": "Kelly Yeboah",
         "published_day": 4,
         "published_month": "JAN",

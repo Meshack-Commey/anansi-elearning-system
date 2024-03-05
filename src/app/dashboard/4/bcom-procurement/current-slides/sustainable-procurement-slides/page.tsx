@@ -1,5 +1,4 @@
-import Image from "next/image";
-import Project_Management_img from '@/components/assets/images/Business_management_courses.jpg'
+
 import Link from "next/link";
 
 //importing slides
@@ -8,8 +7,7 @@ import Link from "next/link";
 const courses = [
     {
         "id": 1,
-        "title": "Introduction to Sustainable Management",
-        "course_img": Project_Management_img,
+        "title": "Introduction to Sustainable Procurement",
         "author": "JERRY WELSON",
         "published_day": 24,
         "published_month": "MAR",
@@ -17,105 +15,7 @@ const courses = [
         "category": "Lecture 1",
         "url": "/dashboard/4/bcom-procurement/current-slides/sustainable-procurement-slides/1"
     },
-    // {
-    //     "id": 2,
-    //     "title": "Organizational Strategy and Projects",
-    //     "course_img": Project_Management_img,
-    //     "author": "JERRY WELSON",
-    //     "published_day": 24,
-    //     "published_month": "MAR",
-    //     "published_year": 2024,
-    //     "category": "Lecture 2",
-    //     "url": "/dashboard/4/bcom-procurement/current-slides/sustainable-procurement-slides/2"
-    // },
-    // {
-    //     "id": 3,
-    //     "title": "Project Selection Portfolio Mgt",
-    //     "course_img": Project_Management_img,
-    //     "author": "JERRY WELSON",
-    //     "published_day": 24,
-    //     "published_month": "MAR",
-    //     "published_year": 2024,
-    //     "category": "Lecture 3",
-    //     "url": "/dashboard/4/bcom-procurement/current-slides/sustainable-procurement-slides/3"
-    // },
-    // {
-    //     "id": 4,
-    //     "title": "Leadership Project Management",
-    //     "course_img": Project_Management_img,
-    //     "author": "JERRY WELSON",
-    //     "published_day": 24,
-    //     "published_month": "MAR",
-    //     "published_year": 2024,
-    //     "category": "Lecture 4",
-    //     "url": "/dashboard/4/bcom-procurement/current-slides/sustainable-procurement-slides/4"
-    // },
-    // {
-    //     "id": 5,
-    //     "title": "Scope Mgt",
-    //     "course_img": Project_Management_img,
-    //     "author": "JERRY WELSON",
-    //     "published_day": 24,
-    //     "published_month": "MAR",
-    //     "published_year": 2024,
-    //     "category": "Lecture 5",
-    //     "url": "/dashboard/4/bcom-procurement/current-slides/sustainable-procurement-slides/5"
-    // },
-    // {
-    //     "id": 6,
-    //     "title": "Team Building",
-    //     "course_img": Project_Management_img,
-    //     "author": "JERRY WELSON",
-    //     "published_day": 24,
-    //     "published_month": "MAR",
-    //     "published_year": 2024,
-    //     "category": "Lecture 6",
-    //     "url": "/dashboard/4/bcom-procurement/current-slides/sustainable-procurement-slides/6"
-    // },
-    // {
-    //     "id": 7,
-    //     "title": "Risk Management",
-    //     "course_img": Project_Management_img,
-    //     "author": "JERRY WELSON",
-    //     "published_day": 24,
-    //     "published_month": "MAR",
-    //     "published_year": 2024,
-    //     "category": "Lecture 7",
-    //     "url": "/dashboard/4/bcom-procurement/current-slides/sustainable-procurement-slides/7"
-    // },
-    // {
-    //     "id": 8,
-    //     "title": "Cost Estimation Budgeting",
-    //     "course_img": Project_Management_img,
-    //     "author": "JERRY WELSON",
-    //     "published_day": 24,
-    //     "published_month": "MAR",
-    //     "published_year": 2024,
-    //     "category": "Lecture 8",
-    //     "url": "/dashboard/4/bcom-procurement/current-slides/sustainable-procurement-slides/8"
-    // },
-    // {
-    //     "id": 9,
-    //     "title": "Scheduling",
-    //     "course_img": Project_Management_img,
-    //     "author": "JERRY WELSON",
-    //     "published_day": 24,
-    //     "published_month": "MAR",
-    //     "published_year": 2024,
-    //     "category": "Lecture 9",
-    //     "url": "/dashboard/4/bcom-procurement/current-slides/sustainable-procurement-slides/9"
-    // },
-    // {
-    //     "id": 10,
-    //     "title": "Project Evaluation Control",
-    //     "course_img": Project_Management_img,
-    //     "author": "JERRY WELSON",
-    //     "published_day": 24,
-    //     "published_month": "MAR",
-    //     "published_year": 2023,
-    //     "category": "Lecture 10",
-    //     "url": "/dashboard/4/bcom-procurement/current-slides/sustainable-procurement-slides/10"
-    // },   
+    
 ]
 
 export default function Pasco() {

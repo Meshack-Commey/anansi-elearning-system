@@ -1,7 +1,3 @@
-import Image from "next/image";
-import Investment_Management_img from '@/components/assets/images/formulas_33006.jpg'
-import Enterpreneurship_img from '@/components/assets/images/cob_ad.jpg'
-import Project_Management_img from '@/components/assets/images/Business_management_courses.jpg'
 import Link from "next/link";
 
 
@@ -37,7 +33,7 @@ export default function Pasco() {
                                 return(
                                 <>
                                     <Link href={course.url}>
-                                        <div className='w-5/12 bg-white'>
+                                        <div className='w-auto bg-white'>
                                             
                                             <div className="flex">
                                                 <div className='bg-red-500 pl-6 pr-6 flex flex-col justify-center items-center font-bold'>

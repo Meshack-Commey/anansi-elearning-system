@@ -1,10 +1,11 @@
 import Link from 'next/link'
-import IFrameDocxViewer from '@/components/IFrameDocxViewer'
+// import IFrameDocxViewer from '@/components/IFrameDocxViewer'
 
 
 export default function Read(){
 
-    const pdfUrl = "https://viewerjs.org/demodoc.pdf";
+    // const pdfUrl = "https://viewerjs.org/demodoc.pdf";
+    const anansiUrl = "https://anansi-elearning-files.onrender.com/project-management.pdf"
     
     return(
         <>
@@ -14,7 +15,8 @@ export default function Read(){
                     <Link href='/dashboard/2/bcom-procurement/current-slides/critical-thinking-slides'> Back</Link>
                 </div>
                 <div>
-                    <IFrameDocxViewer docxUrl={pdfUrl} />
+                    {/* <IFrameDocxViewer docxUrl={pdfUrl} /> */}
+                    <iframe src={ anansiUrl } width="100%" height="600px" />
                 </div>
             </section>
         </>
