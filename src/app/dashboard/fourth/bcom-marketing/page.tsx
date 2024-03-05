@@ -10,7 +10,7 @@ import PastQuestions_Icon from '@/components/assets/images/icons/book (1).png'
 import Slides_Icon from '@/components/assets/images/icons/slide.png'
 import Timetable_Icon from '@/components/assets/images/icons/schedule.png'
 
-export const boards = [
+const boards = [
     {
         "img": PastQuestions_Icon,
         "alt": "Past Questions",
