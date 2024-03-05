@@ -25,7 +25,7 @@ export default function Pasco() {
             <section className="flex flex-col w-full">
                 <div className='flex justify-between'>
                     <h1 className='text-xl text-slate-900 mb-5'> LEAN Slides </h1>
-                    <Link href='/dashboard/fourth/bcom-procurement/curent-slides'> Back</Link>
+                    <Link href='/dashboard/fourth/bcom-procurement/current-slides'> Back</Link>
                 </div>
                 <section className="pasco-container"> {/** PASCO */}
                     {/** Cards */}

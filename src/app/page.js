@@ -89,7 +89,7 @@ export default function Home() {
                                 name="email" 
                                 placeholder="Enter your email" 
                                 onChange={(e) => handleInput(e)}
-                                className="border border-solid border-gray-300 rounded-md p-4 w-full h-10" 
+                                className="border border-solid border-gray-300 text-red rounded-md p-4 w-full h-10" 
                                 required
                             />
                         </div>

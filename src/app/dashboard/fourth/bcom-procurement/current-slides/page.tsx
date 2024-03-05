@@ -1,15 +1,18 @@
 import Image from "next/image";
-import Investment_Management_img from '@/components/assets/images/formulas_33006.jpg'
-import Enterpreneurship_img from '@/components/assets/images/cob_ad.jpg'
-import Project_Management_img from '@/components/assets/images/Business_management_courses.jpg'
 import Link from "next/link";
 
+import Design_Thinking_img from '@/components/assets/fileImgs/design_thinking.jpg'
+import Project_Management_img from '@/components/assets/fileImgs/Project-Management.jpg'
+import Enterpreneurship_img from '@/components/assets/fileImgs/entrepreneurship.jpg'
+import Risk_Management_img from '@/components/assets/fileImgs/risks-management.png'
+import Sustainable_Procurement_img from '@/components/assets/fileImgs/sustainable-procurement.png'
+import LEAN_img from '@/components/assets/fileImgs/lean.png'
 
 const courses = [
     {
         "id": 1,
         "title": "Project Management",
-        "course_img": Investment_Management_img,
+        "course_img": Project_Management_img,
         "author": "JERRY WELSON",
         "published_day": 24,
         "published_month": "MAR",
@@ -20,7 +23,7 @@ const courses = [
     {
         "id": 2,
         "title": "Enterpreneurship",
-        "course_img": Project_Management_img,
+        "course_img": Enterpreneurship_img,
         "author": "Sampson Larbi",
         "published_day": 11,
         "published_month": "FEB",
@@ -30,19 +33,8 @@ const courses = [
     },
     {
         "id": 3,
-        "title": "Design Thinking and Innovation",
-        "course_img": Investment_Management_img,
-        "author": "Kelly Yeboah",
-        "published_day": 4,
-        "published_month": "JAN",
-        "published_year": 2022,
-        "category": "Investment",
-        "url": "/dashboard/fourth/bcom-procurement/current-slides/design-thinking-slides"
-    },
-    {
-        "id": 4,
         "title": "Risk Management",
-        "course_img": Project_Management_img,
+        "course_img": Risk_Management_img,
         "author": "JERRY WELSON",
         "published_day": 24,
         "published_month": "MAR",
@@ -51,20 +43,20 @@ const courses = [
         "url": "/dashboard/fourth/bcom-procurement/current-slides/risk-management-slides"
     },
     {
-        "id": 5,
-        "title": "Sustainable Procurement",
-        "course_img": Enterpreneurship_img,
-        "author": "Sampson Larbi",
-        "published_day": 11,
-        "published_month": "FEB",
-        "published_year": 2023,
-        "category": "procurement",
-        "url": "/dashboard/fourth/bcom-procurement/current-slides/sustainable-procurement-slides"
+        "id": 4,
+        "title": "Design Thinking and Innovation",
+        "course_img": Design_Thinking_img,
+        "author": "Kelly Yeboah",
+        "published_day": 4,
+        "published_month": "JAN",
+        "published_year": 2022,
+        "category": "Investment",
+        "url": "/dashboard/fourth/bcom-procurement/current-slides/design-thinking-slides"
     },
     {
-        "id": 6,
+        "id": 5,
         "title": "LEAN",
-        "course_img": Investment_Management_img,
+        "course_img": LEAN_img,
         "author": "Kelly Yeboah",
         "published_day": 4,
         "published_month": "JAN",
@@ -72,13 +64,25 @@ const courses = [
         "category": "lean",
         "url": "/dashboard/fourth/bcom-procurement/current-slides/lean-slides"
     },
+    {
+        "id": 6,
+        "title": "Sustainable Procurement",
+        "course_img": Sustainable_Procurement_img,
+        "author": "Sampson Larbi",
+        "published_day": 11,
+        "published_month": "FEB",
+        "published_year": 2023,
+        "category": "procurement",
+        "url": "/dashboard/fourth/bcom-procurement/current-slides/sustainable-procurement-slides"
+    },
+    
 ]
 
 export default function Pasco() {
     return(
         <>
             <section className="flex flex-col w-full">
-                <h1 className='text-xl text-slate-900 mb-5'> Current Slides </h1>
+                <h1 className='text-xl text-slate-900 mb-5'> Courses with Current Slides </h1>
                 <section className="pasco-container"> {/** PASCO */}
                     {/** Cards */}
                     <div className="pasco-row">
