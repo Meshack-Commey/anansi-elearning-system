@@ -347,7 +347,7 @@ export const users = [
     },
 //users array index 5
     {
-        "id": 7,
+        "id": 6,
         "role": "student",
         "username": "sb/pcm/20/0179",
         "first_name": "Andoh",
@@ -414,9 +414,9 @@ export const users = [
         "date_created": "21/02/2024",
         "data_updated": "27/02/2024",
     },
-//users array index 5
+//users array index 6
 {
-    "id": 6,
+    "id": 7,
     "role": "student",
     "username": "sb/pcm/20/0027",
     "first_name": "Martina",
@@ -425,7 +425,7 @@ export const users = [
     "email": "martina@gmail.com",
     "password": "martina123",
     "level": 100,
-    "programme": "B.Com. Procurement",
+    "programme": "B.Com. Finance",
     "courses": [
         {
             "id": 1,
