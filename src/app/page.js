@@ -74,7 +74,7 @@ export default function Home() {
                                 className={`w-full`}
                             />
                         </figure>
-                        <h1 className='md:text-xl sm:text-md text-center text-black font-bold mb-2'> Course and Past Questions </h1>
+                        <h1 className='md:text-xl sm:text-md text-center text-black font-bold mb-2'> Anansi BeUnorthodox </h1>
                     </div>
                     <h1 className='md:text-lg sm:text-md text-center text-blue-900 font-bold mb-2'> Log in </h1>
                 </div>
