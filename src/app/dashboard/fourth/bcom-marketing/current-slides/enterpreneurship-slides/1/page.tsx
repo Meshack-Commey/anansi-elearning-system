@@ -5,13 +5,13 @@ import Link from 'next/link'
 export default function Read(){
 
     // const pdfUrl = "https://viewerjs.org/demodoc.pdf";
-    const anansiUrl = "https://anansi-elearning-files.onrender.com/project-management.pdf"
+    const anansiUrl = "https://anansi-elearning-files.onrender.com/slides/mkn/enterpreneurship-Team-formation.pdf"
     
     return(
         <>
            <section className="flex flex-col w-full">
                 <div className='flex justify-between'>
-                    <h1 className='text-xl text-slate-900 mb-5 capitalize'>Introduction to Enterpreneurship </h1>
+                    <h1 className='text-xl text-slate-900 mb-5 capitalize'>Enterpreneurship - Team Formation </h1>
                     <Link href='/dashboard/fourth/bcom-marketing/current-slides/enterpreneurship-slides'> Back</Link>
                 </div>
                 <div>
