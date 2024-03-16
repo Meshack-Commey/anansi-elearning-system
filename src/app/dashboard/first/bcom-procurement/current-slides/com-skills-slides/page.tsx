@@ -1,17 +1,19 @@
-import Image from "next/image";
-//import Project_Management_img from '@/components/assets/images/Business_management_courses.jpg'
-import Link from "next/link";
+'use client'
 
+import { useRouter } from 'next/navigation'
+import Link from 'next/link'
+import Image from 'next/image'
+import Back from "@/components/assets/images/icons/back.png"
 //importing slides
 
 
 const slides = [
     {
         "id": 1,
-        "title": "Introduction to Communication Skills",
-        "author": "JERRY WELSON",
-        "published_day": 24,
-        "published_month": "MAR",
+        "title": "Coordination and Subordination",
+        "author": "TUTORALS CENTER",
+        "published_day": 1,
+        "published_month": "JAN",
         "published_year": 2024,
         "category": "Lecture 1",
         "url": "/dashboard/first/bcom-procurement/current-slides/com-skills-slides/1"
@@ -19,12 +21,15 @@ const slides = [
 ]
 
 export default function Pasco() {
+    const router = useRouter();
+
     return(
         <>
             <section className="flex flex-col w-full">
                 <div className='flex justify-between'>
                     <h1 className='text-xl text-slate-900 mb-5'> Communication Skills Slides </h1>
-                    <Link href='/dashboard/first/bcom-procurement/past-questions'> Back</Link>
+                    {/* <Link href='/dashboard/first/bcom-procurement/past-questions'> Back</Link> */}
+                    <button onClick={ () => router.back() } className="flex gap-2 mr-5"> <Image src={ Back } alt='back icon' className={"w-5 mt-1"} /> <p>Back</p> </button>
                 </div>
                 <section className="pasco-container"> {/** PASCO */}
                     {/** Cards */}

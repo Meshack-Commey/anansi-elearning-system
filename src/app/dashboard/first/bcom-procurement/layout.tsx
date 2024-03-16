@@ -2,7 +2,7 @@
 import {useState} from 'react'
 import Image from "next/image";
 import Link from 'next/link'
-import { FullSideNav, ShortSideNav } from '@/components/L2BComMarketingSideBar'
+import { FullSideNav, ShortSideNav } from '@/components/L1BComProcurementSideBar'
 
 //importing API
 import { users } from '../../../api/users/data'

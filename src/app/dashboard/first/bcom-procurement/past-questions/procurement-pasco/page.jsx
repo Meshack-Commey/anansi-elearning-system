@@ -1,31 +1,45 @@
+'use client'
 
-//import Project_Management_img from '@/components/assets/images/Business_management_courses.jpg'
+import { useRouter } from 'next/navigation'
 import Link from "next/link";
-
-//importing slides
+import Image from 'next/image'
+import Back from "@/components/assets/images/icons/back.png"
 
 
 const courses = [
     {
         "id": 1,
-        "title": "Introduction to Project Management",
-        "author": "JERRY WELSON",
-        "published_day": 24,
-        "published_month": "MAR",
-        "published_year": 2024,
-        "category": "Lecture 1",
-        "url": "/dashboard/fourth/bcom-marketing/current-slides/project-management-slides/1"
+        "title": "Procurement Principles and Practice pasco 2014-15 #1",
+        "author": "BISMARK QUAYE",
+        "published_day": 13,
+        "published_month": "AUG",
+        "published_year": 2015,
+        "category": "Procurement",
+        "url": "/dashboard/first/bcom-procurement/past-questions/procurement-pasco/1"
+    },
+    {
+        "id": 2,
+        "title": "Procurement Principles and Practice pasco 2015 #2",
+        "author": "BISMARK QUAYE",
+        "published_day": 13,
+        "published_month": "AUG",
+        "published_year": 2015,
+        "category": "Procurement",
+        "url": "/dashboard/first/bcom-procurement/past-questions/procurement-pasco/2"
     },
     
 ]
 
 export default function Pasco() {
+    const router = useRouter();
+
     return(
         <>
             <section className="flex flex-col w-full">
                 <div className='flex justify-between'>
-                    <h1 className='text-xl text-slate-900 mb-5'> Project Management Slides </h1>
-                    <Link href='/dashboard/fourth/bcom-marketing/current-slides'> Back</Link>
+                    <h1 className='text-xl text-slate-900 mb-5'> Procurement Principles and Practices Past Questions </h1>
+                    {/* <Link href='/dashboard/first/bcom-procurement/past-questions'> Back</Link> */}
+                    <button onClick={ () => router.back() } className="flex gap-2 mr-5"> <Image src={ Back } alt="back icon" className={"w-5 mt-1"} /> <p>Back</p> </button>
                 </div>
                 <section className="pasco-container"> {/** PASCO */}
                     {/** Cards */}
@@ -37,9 +51,9 @@ export default function Pasco() {
                                 return(
                                 <>
                                     <Link href={course.url}>
-                                        <div className='w-auto'>
+                                        <div className='w-auto bg-white'>
                                             
-                                            <div className="flex bg-white">
+                                            <div className="flex">
                                                 <div className='bg-red-500 pl-6 pr-6 flex flex-col justify-center items-center font-bold'>
                                                     <p className="text-white text-md"> {course.published_day} </p>
                                                     <p className="text-slate-900 text-lg"> {course.published_month} </p>
@@ -48,7 +62,7 @@ export default function Pasco() {
                                                 <div className='flex flex-col gap-2 p-5 justify-start items-start '>
                                                     <p className="text-slate-900 text-lg"> {course.title} </p>
                                                     <div className='flex gap-6 flex-wrap text-sm uppercase'>
-                                                        <span> {course.category} - By {course.author} </span>
+                                                        <span>By {course.author} </span>
                                                     </div>
                                                 </div>
                                             </div>

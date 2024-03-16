@@ -13,94 +13,65 @@ import Back from "@/components/assets/images/icons/back.png"
 const slides = [
     {
         "id": 1,
-        "title": "Information Literacy ",
-        "author": "EVANS TEYE",
-        "published_day": 20,
+        "title": "Introduction to Procurement Principles and Practice",
+        "author": "MARY ANNAN",
+        "published_day": 2,
         "published_month": "JAN",
         "published_year": 2024,
         "category": "Lecture 1",
-        "url": "/dashboard/first/bcom-procurement/current-slides/info-lit-slides/1"
+        "url": "/dashboard/first/bcom-procurement/current-slides/procurement-slides/1"
     },
     {
         "id": 2,
-        "title": "Libraries ",
-        "author": "EVANS TEYE",
-        "published_day": 20,
+        "title": "Evolution of Procurement and SCM",
+        "author": "MARY ANNAN",
+        "published_day": 2,
         "published_month": "JAN",
         "published_year": 2024,
         "category": "Lecture 2",
-        "url": "/dashboard/first/bcom-procurement/current-slides/info-lit-slides/2"
+        "url": "/dashboard/first/bcom-procurement/current-slides/procurement-slides/2"
     },
     {
         "id": 3,
-        "title": "Information Sources ",
-        "author": "EVANS TEYE",
-        "published_day": 20,
+        "title": "The Procurement Process",
+        "author": "MARY ANNAN",
+        "published_day": 2,
         "published_month": "JAN",
         "published_year": 2024,
         "category": "Lecture 3",
-        "url": "/dashboard/first/bcom-procurement/current-slides/info-lit-slides/3"
+        "url": "/dashboard/first/bcom-procurement/current-slides/procurement-slides/3"
     },
     {
         "id": 4,
-        "title": "Organization of Knowledge ",
-        "author": "EVANS TEYE",
-        "published_day": 20,
+        "title": "Benefits of Effective Procurement",
+        "author": "MARY ANNAN",
+        "published_day": 2,
         "published_month": "JAN",
         "published_year": 2024,
         "category": "Lecture 4",
-        "url": "/dashboard/first/bcom-procurement/current-slides/info-lit-slides/4"
+        "url": "/dashboard/first/bcom-procurement/current-slides/procurement-slides/4"
     },
     {
         "id": 5,
-        "title": "Ethical Issues",
-        "author": "EVANS TEYE",
-        "published_day": 20,
+        "title": "Developing Specifications",
+        "author": "MARY ANNAN",
+        "published_day": 2,
         "published_month": "JAN",
         "published_year": 2024,
         "category": "Lecture 5",
-        "url": "/dashboard/first/bcom-procurement/current-slides/info-lit-slides/5"
+        "url": "/dashboard/first/bcom-procurement/current-slides/procurement-slides/5"
     },
     {
         "id": 6,
-        "title": "Referencing",
-        "author": "EVANS TEYE",
-        "published_day": 20,
+        "title": "Approaches to Sourcing",
+        "author": "MARY ANNAN",
+        "published_day": 2,
         "published_month": "JAN",
         "published_year": 2024,
         "category": "Lecture 6",
-        "url": "/dashboard/first/bcom-procurement/current-slides/info-lit-slides/6"
+        "url": "/dashboard/first/bcom-procurement/current-slides/procurement-slides/6"
     },
-    {
-        "id": 7,
-        "title": "Internet ",
-        "author": "EVANS TEYE",
-        "published_day": 20,
-        "published_month": "JAN",
-        "published_year": 2024,
-        "category": "Lecture 7",
-        "url": "/dashboard/first/bcom-procurement/current-slides/info-lit-slides/7"
-    },
-    {
-        "id": 8,
-        "title": "Internet Search Tools",
-        "author": "EVANS TEYE",
-        "published_day": 20,
-        "published_month": "JAN",
-        "published_year": 2024,
-        "category": "Lecture 8",
-        "url": "/dashboard/first/bcom-procurement/current-slides/info-lit-slides/8"
-    },
-    {
-        "id": 9,
-        "title": "Search Strategies",
-        "author": "EVANS TEYE",
-        "published_day": 20,
-        "published_month": "JAN",
-        "published_year": 2024,
-        "category": "Lecture 9",
-        "url": "/dashboard/first/bcom-procurement/current-slides/info-lit-slides/9"
-    },
+    
 ]
 
 export default function Pasco() {
@@ -110,7 +81,7 @@ export default function Pasco() {
         <>
             <section className="flex flex-col w-full">
                 <div className='flex justify-between'>
-                    <h1 className='text-xl text-slate-900 mb-5'> Information Literacy Slides </h1>
+                    <h1 className='text-xl text-slate-900 mb-5'> Procurement Principles and Practices Slides </h1>
                     {/* <Link href='/dashboard/first/bcom-procurement/current-slides'> Back</Link> */}
                     <button onClick={ () => router.back() } className="flex gap-2 mr-5"> <Image src={ Back } alt='back icon' className={"w-5 mt-1"} /> <p>Back</p> </button>
                 </div>

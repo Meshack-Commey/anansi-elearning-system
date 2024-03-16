@@ -56,8 +56,6 @@ export default function Home() {
             setError(error);
         }
     }
-
-    console.log(users)
     
     return(
     <>

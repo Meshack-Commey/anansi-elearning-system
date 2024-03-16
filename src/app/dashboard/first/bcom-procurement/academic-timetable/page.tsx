@@ -1,7 +1,4 @@
-import Image from "next/image";
-import Investment_Management_img from '@/components/assets/images/formulas_33006.jpg'
-import Enterpreneurship_img from '@/components/assets/images/cob_ad.jpg'
-import Project_Management_img from '@/components/assets/images/Business_management_courses.jpg'
+
 import Link from "next/link";
 
 
@@ -9,8 +6,7 @@ const courses = [
     {
         "id": 1,
         "title": "2023/2024 Academic Timetable",
-        "course_img": Project_Management_img,
-        "author": "JERRY WELSON",
+        "author": "PETER THOMPSON",
         "published_day": 14,
         "published_month": "JAN",
         "published_year": 2024,

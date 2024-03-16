@@ -3,8 +3,10 @@ import Link from "next/link";
 
 import Com_Skills_img from '@/components/assets/fileImgs/communication-skills.jpg'
 import Info_Lit_img from '@/components/assets/fileImgs/Infolit.jpg'
-import Financial_Accounting_img from '@/components/assets/fileImgs/financial-accounting.jpeg'
-import Micro_Economics_img from '@/components/assets/fileImgs/microeconomics2-1.png'
+//import Financial_Accounting_img from '@/components/assets/fileImgs/financial-accounting.jpeg'
+//import Micro_Economics_img from '@/components/assets/fileImgs/microeconomics2-1.png'
+import Procurement_img from '@/components/assets/images/Business_management_courses.jpg'
+
 
 const courses = [
     {
@@ -16,7 +18,7 @@ const courses = [
         "published_month": "FEB",
         "published_year": 2023,
         "category": "methods",
-        "url": "/dashboard/first/bcom-procurement/current-slides/quantitative-methods-slides"
+        "url": "/dashboard/first/bcom-procurement/current-slides/com-skills-slides"
     },
     {
         "id": 2,
@@ -27,30 +29,41 @@ const courses = [
         "published_month": "MAR",
         "published_year": 2023,
         "category": "business",
-        "url": "/dashboard/first/bcom-procurement/current-slides/business-law-slides"
+        "url": "/dashboard/first/bcom-procurement/current-slides/info-lit-slides"
     },
     {
         "id": 3,
-        "title": "Financial Accounting",
-        "course_img": Financial_Accounting_img,
+        "title": "Procurement Principles and Practice",
+        "course_img": Procurement_img,
         "author": "Sampson Larbi",
         "published_day": 11,
         "published_month": "FEB",
         "published_year": 2023,
         "category": "methods",
-        "url": "/dashboard/first/bcom-procurement/current-slides/financial-accounting-slides"
+        "url": "/dashboard/first/bcom-procurement/current-slides/procurement-slides"
     },
-    {
-        "id": 4,
-        "title": "Mico Economics",
-        "course_img": Micro_Economics_img,
-        "author": "Sampson Larbi",
-        "published_day": 11,
-        "published_month": "FEB",
-        "published_year": 2023,
-        "category": "methods",
-        "url": "/dashboard/first/bcom-procurement/current-slides/micro-economics-slides"
-    },
+    // {
+    //     "id": 4,
+    //     "title": "Financial Accounting",
+    //     "course_img": Financial_Accounting_img,
+    //     "author": "Sampson Larbi",
+    //     "published_day": 11,
+    //     "published_month": "FEB",
+    //     "published_year": 2023,
+    //     "category": "methods",
+    //     "url": "/dashboard/first/bcom-procurement/current-slides/financial-accounting-slides"
+    // },
+    // {
+    //     "id": 5,
+    //     "title": "Mico Economics",
+    //     "course_img": Micro_Economics_img,
+    //     "author": "Sampson Larbi",
+    //     "published_day": 11,
+    //     "published_month": "FEB",
+    //     "published_year": 2023,
+    //     "category": "methods",
+    //     "url": "/dashboard/first/bcom-procurement/current-slides/micro-economics-slides"
+    // },
 ]
 
 export default function Pasco() {
