@@ -7,11 +7,11 @@ import Back from "@/components/assets/images/icons/back.png"
 const allPascoFiles = [
     {
         "title": "Procurement Principles and Practice pasco 2014-15 #1",
-        "filePath": "https://anansi-elearning-files.onrender.com/level100/procurement/pasco/Procurement Principles and Practice pasco 2014-15.pdf#toolbar=0"
+        "filePath": "https://anansi-elearning-files.onrender.com/level100/procurement/pasco/Procurement-Principles-and-Practice-pasco-2014.pdf#toolbar=0"
     },
     {
         "title": "Procurement Principles and Practice pasco 2015 #2",
-        "filePath": "https://anansi-elearning-files.onrender.com/level100/procurement/pasco/Procurement Principles and Practice pasco 2015.pdf#toolbar=0"
+        "filePath": "https://anansi-elearning-files.onrender.com/level100/procurement/pasco/Procurement-Principles-and-Practice-pasco-2015.pdf#toolbar=0"
     },
     
 ]
