@@ -100,3 +100,122 @@ body {
 .menu:hover .submenu{
   display: block;
 }
+
+.elibrary-hero {
+  background-image: url("../components/assets/images/business-2.jpg");
+  background-size: cover;
+  background-position: 0 0 0 0;
+  background-repeat: no-repeat;
+  opacity: 1;
+  height: 80vh;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.elibrary-overlay{
+  height: 80vh;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+.elibrary-hero-box{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.elibrary-hero-searchbox, .search-button, .search-input {
+  border-radius: 100px;
+}
+
+.image-radius{
+  border-radius: 50%;
+}
+.linkedin-button{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.timetable-hero{
+  background-image: url("../components/assets/images/business-2.jpg");
+  background-size: cover;
+  background-position: 0 0 0 0;
+  background-repeat: no-repeat;
+  opacity: 1;
+  height: 45vh;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.timetable-overlay{
+  height: 45vh;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+.pasco-hero{
+  background-image: url("../components/assets/images/business-2.jpg");
+  background-size: cover;
+  background-position: 0 0 0 0;
+  background-repeat: no-repeat;
+  opacity: 1;
+  height: 45vh;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.pasco-overlay{
+  height: 45vh;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+.slides-hero{
+  background-image: url("../components/assets/images/business-2.jpg");
+  background-size: cover;
+  background-position: 0 0 0 0;
+  background-repeat: no-repeat;
+  opacity: 1;
+  height: 45vh;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.slides-overlay{
+  height: 45vh;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
