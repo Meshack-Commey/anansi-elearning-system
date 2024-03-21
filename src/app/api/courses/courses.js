@@ -289,7 +289,7 @@ export const courses = [
         "code": "",
         "category": "",
         "programme": "",
-        "level": 300,
+        "level": 200,
         "semester": 1,
         "image": "",
         "description": " ",
