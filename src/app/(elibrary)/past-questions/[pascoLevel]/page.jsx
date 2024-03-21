@@ -23,7 +23,7 @@ export default function CourseSlides({ params }) {
                                     return(
                                         <div key={value.id} className="bg-white p-5 text-black">
                                             <p className="capitalize text-xl font-bold"> {value.title} </p>
-                                            <p className="capitalize text-sm mb-2"> B.Com. {value.programme} </p>
+                                            {/* <p className="capitalize text-sm mb-2"> B.Com. {value.programme} </p> */}
                                             <hr />
                                             <ul className="p-2">
                                                 {
