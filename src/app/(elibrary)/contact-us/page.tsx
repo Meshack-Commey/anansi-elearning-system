@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import MeshackCommeyImg from '@/components/assets/images/png/meshofficial.jpg'
-import KelvinImg from '@/components/assets/images/png/meshofficial.jpg'
-import FeliciaImg from '@/components/assets/images/png/meshofficial.jpg'
-import AugustineImg from '@/components/assets/images/png/meshofficial.jpg'
+//import MeshackCommeyImg from '@/components/assets/images/png/meshofficial.jpg'
+import KelvinImg from '@/components/assets/images/png/kelvin.jpg'
+import FeliciaImg from '@/components/assets/images/png/felicia.jpg'
+import AugustineImg from '@/components/assets/images/png/augustine.jpg'
 import UserImg from '@/components/assets/images/icons/user (3).png'
 import Link from 'next/link'
 
