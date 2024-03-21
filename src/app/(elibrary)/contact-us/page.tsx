@@ -1,18 +1,76 @@
 import Image from 'next/image'
 import MeshackCommeyImg from '@/components/assets/images/png/meshofficial.jpg'
+import KelvinImg from '@/components/assets/images/png/meshofficial.jpg'
+import FeliciaImg from '@/components/assets/images/png/meshofficial.jpg'
+import AugustineImg from '@/components/assets/images/png/meshofficial.jpg'
+import UserImg from '@/components/assets/images/icons/user (3).png'
 import Link from 'next/link'
 
 
 const professionals = [
     {
         "id": 1,
-        "name": "meshack commey",
-        "position": "Senior Software Engineer",
-        "description": "Meshack Commey is an expert software engineer with extensive experience in software architecture, design, and development.",
-        "profilePicture": MeshackCommeyImg,
+        "name": "kelvin yeboah",
+        "position": "specialist in design thinking and innovation",
+        "description": "Glad to assist you",
+        "profilePicture": KelvinImg,
         "linkedin": "",
         "portfolioUrl": "",
     },
+    {
+        "id": 2,
+        "name": "Felicia Adjei",
+        "position": "expert in Logistics Management",
+        "description": "Felicia Adjei is an expert in Logistics management, looking forward to get in touch with you.",
+        "profilePicture": FeliciaImg,
+        "linkedin": "",
+        "portfolioUrl": "",
+    },
+    {
+        "id": 3,
+        "name": "Augustine Agyapong",
+        "position": "Data Analytics Specialist",
+        "description": "Glad to assist you",
+        "profilePicture": AugustineImg,
+        "linkedin": "",
+        "portfolioUrl": "",
+    },
+    {
+        "id": 4,
+        "name": "Lerry Kojo Bruce",
+        "position": "",
+        "description": "",
+        "profilePicture": UserImg,
+        "linkedin": "",
+        "portfolioUrl": "",
+    },
+    {
+        "id": 5,
+        "name": "Christiana Martina Afum",
+        "position": "",
+        "description": "",
+        "profilePicture": UserImg,
+        "linkedin": "",
+        "portfolioUrl": "",
+    },
+    {
+        "id": 6,
+        "name": "Andoh Kofi Quansah",
+        "position": "",
+        "description": "",
+        "profilePicture": UserImg,
+        "linkedin": "",
+        "portfolioUrl": "",
+    },
+    // {
+    //     "id": 7,
+    //     "name": "Meshack Commey",
+    //     "position": "Software Developer",
+    //     "description": "Meshack Commey is an expert software engineer with extensive experience in software architecture, design, and development.",
+    //     "profilePicture": MeshackCommeyImg,
+    //     "linkedin": "",
+    //     "portfolioUrl": "",
+    // },
 ]
 
 
