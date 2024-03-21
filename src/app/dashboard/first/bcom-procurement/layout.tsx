@@ -85,7 +85,7 @@ export default function UserDashboardLayout({
           <main className={` w-full bg-inherit h-screen max-h-screen flex flex-col`}> 
 
             <div className='mt-16 p-9 w-full h-16 bg-inherit flex justify-between'>
-              <h1 className='text-2xl'> Student Dashboard </h1>
+              <h1 className='text-2xl'> Premium User Dashboard </h1>
               {/* <p className='text-base'> Admin | Dashboard </p> */}
             </div>
 
