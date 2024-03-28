@@ -107,7 +107,7 @@ body {
   background-position: 0 0 0 0;
   background-repeat: no-repeat;
   opacity: 1;
-  height: 80vh;
+  height: 70vh;
   position: relative;
   top: 0;
   bottom: 0;
@@ -116,7 +116,7 @@ body {
   z-index: 1;
 }
 .elibrary-overlay{
-  height: 80vh;
+  height: 70vh;
   opacity: 0.8;
   position: absolute;
   top: 0;

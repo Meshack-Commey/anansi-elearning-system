@@ -12,7 +12,7 @@ export default function Read({ fileTitle, fileUrl }){
                     <BackWardNavigator />
                 </div>
                 <div>
-                    <embed src={ fileUrl } width="100%" height="600px" />
+                    <embed src={ fileUrl } className={'w-full h-screen'} />
                 </div>
             </section>
         </>

@@ -1,18 +1,23 @@
 import Link from "next/link";
 import { courses } from '@/app/api/courses/courses'
+import BackWardNavigator from '@/components/elibrary/BackWardNavigator'
 
+export default function CourseSlides() {
 
-export default function CourseSlides({ params }) {
-
-    const slideLevelID = parseInt(params.slideLevel);
-    const courseLevel = courses.filter(item => item.level === slideLevelID);
+    const slidesLevelID = 300;
+    const courseLevel = courses.filter(item => item.level === slidesLevelID);
 
     if(courseLevel){
         
         return(
             <>
             <section className="p-6 pt-5 flex flex-col w-full ">
-                <h1 className='text-xl text-slate-900 mb-5'> Level { params.slideLevel } Slides </h1>
+
+                <div className="flex justify-between items-between">
+                    <h1 className='text-md text-slate-900 mb-5'> Level { slidesLevelID } Current Slides </h1>
+                    <BackWardNavigator />
+                </div>
+
                 <section className="pasco-container"> {/** PASCO */}
                     {/** Cards */}
                     <div className="pasco-row">

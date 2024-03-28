@@ -1,6 +1,7 @@
 
 import Image from "next/image";
 import Link from 'next/link'
+// import MenuButton from '@/components/elibrary/MenuBar'
 
 //importing states
 import User_Pic from "@/components/assets/images/icons/user (2).png"
@@ -46,6 +47,7 @@ export default function ElibraryLayout({
                 <Link href={"/login"}>
                     <button className="w-18 p-2 mt-2 bg-white text-blue-900 font-bold border rounded">Premium Users</button>
                 </Link>
+                {/* <MenuButton /> */}
             </header>
             {/** Endblock of Navbar Section */}
             <main className="w-full bg-inherit h-screen">
